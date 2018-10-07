@@ -2,7 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1ca7704b-a651-4887-8c5f-b08b8177fb56" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/Profesional.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/AbstractFactory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Agente.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/AgenteFactory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Album.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Artista.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/ArtistaFactory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Etiqueta.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/GeneroMusical.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Profesional.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/AbstractFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/AbstractFactory.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Agente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Agente.java" afterDir="false" />
@@ -30,6 +42,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
+          <entry key="gitignore" value="1" />
           <entry key="java" value="10" />
           <entry key="md" value="1" />
         </counts>
@@ -37,11 +50,12 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="JAVA" value="10" />
-          <entry key="PLAIN_TEXT" value="1" />
+          <entry key="PLAIN_TEXT" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
+          <entry key="gitignore" value="32" />
           <entry key="java" value="2848" />
           <entry key="md" value="1" />
         </counts>
@@ -49,18 +63,13 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="JAVA" value="2848" />
-          <entry key="PLAIN_TEXT" value="1" />
+          <entry key="PLAIN_TEXT" value="33" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Etiqueta.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -215,6 +224,7 @@
         <option value="$PROJECT_DIR$/src/main/java/ArtistaFactory.java" />
         <option value="$PROJECT_DIR$/src/main/java/Artista.java" />
         <option value="$PROJECT_DIR$/src/main/java/AgenteFactory.java" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -260,6 +270,11 @@
             <path>
               <item name="APAW-ECP1-CesarGayo" type="b2602c69:ProjectViewProjectNode" />
               <item name="APAW-ECP1-CesarGayo" type="462c0819:PsiDirectoryNode" />
+              <item name=".idea" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="APAW-ECP1-CesarGayo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="APAW-ECP1-CesarGayo" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -283,7 +298,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1538937247577" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1538938504958" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../Dev/workspace-ij/AndroidRatesAPISample" />
     <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
   </component>
@@ -325,12 +340,12 @@
       <window_info id="Favorites" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3285968" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3285968" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.25754884" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.25754884" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -450,6 +465,13 @@
             <element signature="e#462#463#0" expanded="true" />
             <element signature="e#506#507#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="14" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
         </state>
       </provider>
     </entry>
