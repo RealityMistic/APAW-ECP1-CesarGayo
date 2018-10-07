@@ -1,7 +1,5 @@
-public interface AbstractFactory {
+public abstract class AbstractFactory {
 
-    public abstract Agente crearAgente();
-    public abstract Artista crearArtista();
-    public abstract boolean borrarArtista(Artista artistaABorrar);
-    public abstract boolean borrarAgente(Agente agenteABorrar);
+    public abstract Profesional crear(int suId, String suNombre, String suPseudonimo);
+    public abstract boolean borrar(int idProfesionalABorrar);
 }

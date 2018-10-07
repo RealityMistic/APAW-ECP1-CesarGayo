@@ -1,11 +1,11 @@
 import java.util.HashMap;
 
-public class ArtistaFactory implements AbstractFactory {
+public class ArtistaFactory extends AbstractFactory {
     private HashMap<Integer, Artista> misArtistas;
-    private static ArtistaFactory;
+    private static ArtistaFactory artistaFactory;
     private static boolean allowInstance;
 
-    public ArtistaFactory ArtistaFactory(){
+    public void ArtistaFactory(){
         if(!allowInstance){
             System.out.print("Debes usar getInstance()");
         }else{
@@ -14,28 +14,32 @@ public class ArtistaFactory implements AbstractFactory {
     }
 
     public boolean buscarArtista(int idArtista){
-        if ( misArtistas.get(idArtista != null){
+        if ( misArtistas.get(idArtista) != null)
             return true;
-        }
         else return false;
     }
 
-    public static ArtistaFactory getInstanceArtistaFactory(int idArtista) {
-        if (buscarArtista(idArtista) {
+    public ArtistaFactory getInstanceArtistaFactory(int idArtista) {
+        if (buscarArtista(idArtista)){
             allowInstance = true;
-            ArtistaFactory = new ArtistaFactory();
+            artistaFactory = new ArtistaFactory();
             allowInstance = false;
         } else {
             System.out.println("Se retorna la instancia existente");
         }
-        return ArtistaFactory;
+        return artistaFactory;
     }
 
-    public Artista crearArtista(int suId, String suNombre, String suPseudonimo, Boolean esAnonimo, Agente suAgente) {
-        misArtistas.put(suId, new Artista(suId, suNombre, suPseudonimo, esAnonimo, suAgente) );
+    public Profesional crear(int suId, String suNombre, String suPseudonimo) {
+        misArtistas.put(suId, new Artista(suId,
+                                        suNombre,
+                                        suPseudonimo,
+                                        false,
+                                        new Agente(1, "Pepe Camarón", "1212") )
+                        );
+        return misArtistas.get(suId);
     }
-
-    public boolean borrarAgente(int suId){
+    public boolean borrar(int suId){
         if (misArtistas.containsKey(suId)){
             misArtistas.remove(suId);
             return true;

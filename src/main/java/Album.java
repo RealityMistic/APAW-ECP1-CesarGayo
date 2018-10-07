@@ -1,4 +1,5 @@
 import java.time.LocalDateTime;
+import java.time.Month;
 
 public class Album {
     LocalDateTime fechaLanzamiento;
@@ -16,7 +17,7 @@ public class Album {
         return fechaLanzamiento;
     }
 
-    public void setFechaLanzamiento(LocalDateTime fechaLanzamiento) {
-        this.fechaLanzamiento = fechaLanzamiento;
+    public void setFechaLanzamiento(int anio, Month mes, int diaDelMes, int hora, int minuto) {
+        this.fechaLanzamiento = LocalDateTime.of(anio, mes, diaDelMes, hora, minuto);
     }
 }

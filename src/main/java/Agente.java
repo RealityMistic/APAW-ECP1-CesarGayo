@@ -1,11 +1,10 @@
-public class Agente {
+public class Agente extends Profesional{
     int idAgente;
-    String nombreAgente;
     String telefonoAgente;
 
-    private Agente(int idAgente, String nombreAgente, String telefonoAgente) {
+    public Agente(int idAgente, String nombreAgente, String telefonoAgente) {
         this.idAgente = idAgente;
-        this.nombreAgente = nombreAgente;
+        this.nombre = nombreAgente;
         this.telefonoAgente = telefonoAgente;
     }
 }
