@@ -2,6 +2,7 @@ public class Profesional {
     String nombre;
     String pseudonimo;
 
+
     public String getPseudonimo() {
         return pseudonimo;
     }

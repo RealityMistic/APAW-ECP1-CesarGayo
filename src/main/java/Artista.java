@@ -1,18 +1,23 @@
 import java.util.ArrayList;
 
+
 public class Artista extends Profesional {
     int idArtista;
-    Boolean anonimo;
+    boolean anonimo;
     Agente suAgente;
     AgenteFactory agenteFactory;
     ArrayList<Album> susAlbumes;
+    ArtistaBuilder artistaBuilder;
 
-    public Artista(int idArtista, String nombre, String pseudonimo, Boolean anonimo, Agente suAgente) {
-        this.idArtista = idArtista;
-        this.nombre = nombre;
-        this.pseudonimo = pseudonimo;
-        this.anonimo = anonimo;
-        this.suAgente = suAgente;
+
+
+    public Artista(ArtistaBuilder artistaBuilder) {
+        this.idArtista = artistaBuilder.getIdArtista();
+        this.nombre = artistaBuilder.getNombre();
+        this.pseudonimo = artistaBuilder.getPseudonimo();
+        this.anonimo = artistaBuilder.isAnonimo();
+        this.suAgente = artistaBuilder.getSuAgente();
+        this.susAlbumes = artistaBuilder.getSusAlbumes();
     }
 
     public int getIdArtista() {
@@ -20,11 +25,7 @@ public class Artista extends Profesional {
     }
 
     public Agente getSuAgente(){
-        if (suAgente == null){
-            agenteFactory = new AgenteFactory();
-            suAgente = agenteFactory.crear(1, "Pepe Camarón", "121212");
-        }
-        return (Agente) suAgente;
+        return suAgente;
     }
 
     public void setIdArtista(int idArtista) {

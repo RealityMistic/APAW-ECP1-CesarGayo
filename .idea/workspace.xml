@@ -2,26 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1ca7704b-a651-4887-8c5f-b08b8177fb56" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Profesional.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/AbstractFactory.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/Agente.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/AgenteFactory.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/Album.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/Artista.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/ArtistaFactory.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/Etiqueta.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/GeneroMusical.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/Profesional.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ArtistaBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/AgenteFactoryTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ArtistaFactoryTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/AbstractFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/AbstractFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Agente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Agente.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/AgenteFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/AgenteFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Album.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Album.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Artista.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Artista.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ArtistaFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ArtistaFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Profesional.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Profesional.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/AbstractFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Agente.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/AgenteFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Album.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Artista.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ArtistaFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Etiqueta.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/GeneroMusical.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Profesional.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Promocion.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -43,26 +41,26 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="gitignore" value="1" />
-          <entry key="java" value="10" />
+          <entry key="java" value="16" />
           <entry key="md" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="10" />
+          <entry key="JAVA" value="16" />
           <entry key="PLAIN_TEXT" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="gitignore" value="32" />
-          <entry key="java" value="2848" />
+          <entry key="java" value="4458" />
           <entry key="md" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="2848" />
+          <entry key="JAVA" value="4458" />
           <entry key="PLAIN_TEXT" value="33" />
         </counts>
       </usages-collector>
@@ -71,29 +69,12 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Etiqueta.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="21" selection-start-column="21" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/AbstractFactory.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Profesional.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="35" selection-start-line="4" selection-start-column="35" selection-end-line="4" selection-end-column="35" />
+            <state relative-caret-position="51">
+              <caret line="3" selection-start-line="3" selection-end-line="3" />
               <folding>
+                <element signature="e#104#105#0" expanded="true" />
                 <element signature="e#137#138#0" expanded="true" />
                 <element signature="e#189#190#0" expanded="true" />
                 <element signature="e#233#234#0" expanded="true" />
@@ -115,42 +96,112 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/AgenteFactory.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="92">
-              <caret line="7" column="15" selection-start-line="7" selection-start-column="15" selection-end-line="7" selection-end-column="15" />
+            <state relative-caret-position="109">
+              <caret line="26" column="77" selection-start-line="26" selection-start-column="77" selection-end-line="26" selection-end-column="77" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/AbstractFactory.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="22" selection-start-column="22" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/Artista.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-448">
-              <caret line="5" column="10" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
+            <state relative-caret-position="72">
+              <caret line="21" column="4" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="4" />
               <folding>
-                <element signature="e#219#220#0" expanded="true" />
-                <element signature="e#251#252#0" expanded="true" />
-                <element signature="e#298#299#0" expanded="true" />
-                <element signature="e#340#341#0" expanded="true" />
-                <element signature="e#387#388#0" expanded="true" />
-                <element signature="e#420#421#0" expanded="true" />
-                <element signature="e#482#483#0" expanded="true" />
-                <element signature="e#526#527#0" expanded="true" />
-                <element signature="e#375#376#0" expanded="true" />
-                <element signature="e#405#406#0" expanded="true" />
-                <element signature="e#452#453#0" expanded="true" />
-                <element signature="e#490#491#0" expanded="true" />
-                <element signature="e#373#374#0" expanded="true" />
-                <element signature="e#402#403#0" expanded="true" />
-                <element signature="e#446#447#0" expanded="true" />
-                <element signature="e#482#483#0" expanded="true" />
-                <element signature="e#377#378#0" expanded="true" />
-                <element signature="e#410#411#0" expanded="true" />
-                <element signature="e#462#463#0" expanded="true" />
-                <element signature="e#506#507#0" expanded="true" />
+                <element signature="e#1059#1060#0" expanded="true" />
+                <element signature="e#1091#1092#0" expanded="true" />
+                <element signature="e#1125#1126#0" expanded="true" />
+                <element signature="e#1156#1157#0" expanded="true" />
+                <element signature="e#1203#1204#0" expanded="true" />
+                <element signature="e#1245#1246#0" expanded="true" />
+                <element signature="e#1292#1293#0" expanded="true" />
+                <element signature="e#1325#1326#0" expanded="true" />
+                <element signature="e#1387#1388#0" expanded="true" />
+                <element signature="e#1431#1432#0" expanded="true" />
+                <element signature="e#1466#1467#0" expanded="true" />
+                <element signature="e#1496#1497#0" expanded="true" />
+                <element signature="e#1543#1544#0" expanded="true" />
+                <element signature="e#1581#1582#0" expanded="true" />
+                <element signature="e#1614#1615#0" expanded="true" />
+                <element signature="e#1643#1644#0" expanded="true" />
+                <element signature="e#1687#1688#0" expanded="true" />
+                <element signature="e#1723#1724#0" expanded="true" />
+                <element signature="e#1760#1761#0" expanded="true" />
+                <element signature="e#1793#1794#0" expanded="true" />
+                <element signature="e#1845#1846#0" expanded="true" />
+                <element signature="e#1889#1890#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ArtistaBuilder.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="193">
+              <caret line="47" column="16" selection-start-line="47" selection-start-column="16" selection-end-line="47" selection-end-column="16" />
+              <folding>
+                <element signature="e#237#238#0" expanded="true" />
+                <element signature="e#269#270#0" expanded="true" />
+                <element signature="e#392#393#0" expanded="true" />
+                <element signature="e#422#423#0" expanded="true" />
+                <element signature="e#542#543#0" expanded="true" />
+                <element signature="e#573#574#0" expanded="true" />
+                <element signature="e#906#907#0" expanded="true" />
+                <element signature="e#939#940#0" expanded="true" />
+                <element signature="e#1001#1002#0" expanded="true" />
+                <element signature="e#1045#1046#0" expanded="true" />
+                <element signature="e#586#587#0" expanded="true" />
+                <element signature="e#627#628#0" expanded="true" />
+                <element signature="e#364#365#0" expanded="true" />
+                <element signature="e#409#410#0" expanded="true" />
+                <element signature="e#867#868#0" expanded="true" />
+                <element signature="e#906#907#0" expanded="true" />
+                <element signature="e#607#608#0" expanded="true" />
+                <element signature="e#656#657#0" expanded="true" />
+                <element signature="e#694#695#0" expanded="true" />
+                <element signature="e#735#736#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Promocion.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="191">
+              <caret line="14" selection-start-line="14" selection-end-line="14" />
+              <folding>
+                <element signature="e#182#183#0" expanded="true" />
+                <element signature="e#210#211#0" expanded="true" />
+                <element signature="e#252#253#0" expanded="true" />
+                <element signature="e#286#287#0" expanded="true" />
+                <element signature="e#319#320#0" expanded="true" />
+                <element signature="e#348#349#0" expanded="true" />
+                <element signature="e#392#393#0" expanded="true" />
+                <element signature="e#428#429#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/ArtistaFactoryTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="31" selection-start-column="31" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -158,35 +209,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Agente.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="19" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Album.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="19" column="92" selection-start-line="19" selection-start-column="92" selection-end-line="19" selection-end-column="92" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#168#169#0" expanded="true" />
-                <element signature="e#204#205#0" expanded="true" />
-                <element signature="e#269#270#0" expanded="true" />
-                <element signature="e#319#320#0" expanded="true" />
-                <element signature="e#254#255#0" expanded="true" />
-                <element signature="e#293#294#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/GeneroMusical.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="19" selection-start-line="1" selection-start-column="19" selection-end-line="1" selection-end-column="19" />
+            <state relative-caret-position="34">
+              <caret line="2" column="26" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -218,13 +242,15 @@
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/src/main/java/GeneroMusical.java" />
         <option value="$PROJECT_DIR$/src/main/java/Album.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Profesional.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Agente.java" />
         <option value="$PROJECT_DIR$/src/main/java/AbstractFactory.java" />
         <option value="$PROJECT_DIR$/src/main/java/ArtistaFactory.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Artista.java" />
-        <option value="$PROJECT_DIR$/src/main/java/AgenteFactory.java" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/src/main/java/Promocion.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Profesional.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Agente.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ArtistaBuilder.java" />
+        <option value="$PROJECT_DIR$/src/main/java/AgenteFactory.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Artista.java" />
       </list>
     </option>
   </component>
@@ -290,6 +316,12 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="APAW-ECP1-CesarGayo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="APAW-ECP1-CesarGayo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -298,7 +330,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1538938504958" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1538943267395" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../Dev/workspace-ij/AndroidRatesAPISample" />
     <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
   </component>
@@ -329,8 +361,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2534413" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2340081" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -340,12 +373,12 @@
       <window_info id="Favorites" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3285968" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3285968" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.25754884" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.25754884" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -355,8 +388,36 @@
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info anchor="right" id="Palette&#9;" order="6" />
-      <window_info anchor="right" id="Maven Projects" order="7" visible="true" weight="0.2291498" />
+      <window_info anchor="right" id="Maven Projects" order="7" visible="true" weight="0.21295546" />
     </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2340081" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Learn" order="6" weight="0.32955465" />
+      <window_info id="Favorites" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3285968" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.25754884" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="right" id="Maven Projects" order="7" visible="true" weight="0.21295546" />
+    </layout-to-restore>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -402,11 +463,50 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="14" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Promocion.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="191">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+          <folding>
+            <element signature="e#182#183#0" expanded="true" />
+            <element signature="e#210#211#0" expanded="true" />
+            <element signature="e#252#253#0" expanded="true" />
+            <element signature="e#286#287#0" expanded="true" />
+            <element signature="e#319#320#0" expanded="true" />
+            <element signature="e#348#349#0" expanded="true" />
+            <element signature="e#392#393#0" expanded="true" />
+            <element signature="e#428#429#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ArtistaFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="262">
+          <caret line="39" column="37" selection-start-line="39" selection-start-column="37" selection-end-line="39" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ProfesionalBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="31" selection-start-column="31" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Profesional.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="35" selection-start-line="4" selection-start-column="35" selection-end-line="4" selection-end-column="35" />
+        <state relative-caret-position="51">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
           <folding>
+            <element signature="e#104#105#0" expanded="true" />
             <element signature="e#137#138#0" expanded="true" />
             <element signature="e#189#190#0" expanded="true" />
             <element signature="e#233#234#0" expanded="true" />
@@ -420,65 +520,96 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Agente.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="19" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
+        <state relative-caret-position="34">
+          <caret line="2" column="26" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/AgenteFactoryTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="30" selection-start-column="30" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ArtistaFactoryTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="31" selection-start-column="31" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ArtistaBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="193">
+          <caret line="47" column="16" selection-start-line="47" selection-start-column="16" selection-end-line="47" selection-end-column="16" />
+          <folding>
+            <element signature="e#237#238#0" expanded="true" />
+            <element signature="e#269#270#0" expanded="true" />
+            <element signature="e#392#393#0" expanded="true" />
+            <element signature="e#422#423#0" expanded="true" />
+            <element signature="e#542#543#0" expanded="true" />
+            <element signature="e#573#574#0" expanded="true" />
+            <element signature="e#906#907#0" expanded="true" />
+            <element signature="e#939#940#0" expanded="true" />
+            <element signature="e#1001#1002#0" expanded="true" />
+            <element signature="e#1045#1046#0" expanded="true" />
+            <element signature="e#586#587#0" expanded="true" />
+            <element signature="e#627#628#0" expanded="true" />
+            <element signature="e#364#365#0" expanded="true" />
+            <element signature="e#409#410#0" expanded="true" />
+            <element signature="e#867#868#0" expanded="true" />
+            <element signature="e#906#907#0" expanded="true" />
+            <element signature="e#607#608#0" expanded="true" />
+            <element signature="e#656#657#0" expanded="true" />
+            <element signature="e#694#695#0" expanded="true" />
+            <element signature="e#735#736#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/AbstractFactory.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ArtistaFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="262">
-          <caret line="39" column="37" selection-start-line="39" selection-start-column="37" selection-end-line="39" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Artista.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-448">
-          <caret line="5" column="10" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
-          <folding>
-            <element signature="e#219#220#0" expanded="true" />
-            <element signature="e#251#252#0" expanded="true" />
-            <element signature="e#298#299#0" expanded="true" />
-            <element signature="e#340#341#0" expanded="true" />
-            <element signature="e#387#388#0" expanded="true" />
-            <element signature="e#420#421#0" expanded="true" />
-            <element signature="e#482#483#0" expanded="true" />
-            <element signature="e#526#527#0" expanded="true" />
-            <element signature="e#375#376#0" expanded="true" />
-            <element signature="e#405#406#0" expanded="true" />
-            <element signature="e#452#453#0" expanded="true" />
-            <element signature="e#490#491#0" expanded="true" />
-            <element signature="e#373#374#0" expanded="true" />
-            <element signature="e#402#403#0" expanded="true" />
-            <element signature="e#446#447#0" expanded="true" />
-            <element signature="e#482#483#0" expanded="true" />
-            <element signature="e#377#378#0" expanded="true" />
-            <element signature="e#410#411#0" expanded="true" />
-            <element signature="e#462#463#0" expanded="true" />
-            <element signature="e#506#507#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="14" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
+        <state>
+          <caret column="22" selection-start-column="22" selection-end-column="22" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/AgenteFactory.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="7" column="15" selection-start-line="7" selection-start-column="15" selection-end-line="7" selection-end-column="15" />
+        <state relative-caret-position="109">
+          <caret line="26" column="77" selection-start-line="26" selection-start-column="77" selection-end-line="26" selection-end-column="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Artista.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="21" column="4" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="4" />
+          <folding>
+            <element signature="e#1059#1060#0" expanded="true" />
+            <element signature="e#1091#1092#0" expanded="true" />
+            <element signature="e#1125#1126#0" expanded="true" />
+            <element signature="e#1156#1157#0" expanded="true" />
+            <element signature="e#1203#1204#0" expanded="true" />
+            <element signature="e#1245#1246#0" expanded="true" />
+            <element signature="e#1292#1293#0" expanded="true" />
+            <element signature="e#1325#1326#0" expanded="true" />
+            <element signature="e#1387#1388#0" expanded="true" />
+            <element signature="e#1431#1432#0" expanded="true" />
+            <element signature="e#1466#1467#0" expanded="true" />
+            <element signature="e#1496#1497#0" expanded="true" />
+            <element signature="e#1543#1544#0" expanded="true" />
+            <element signature="e#1581#1582#0" expanded="true" />
+            <element signature="e#1614#1615#0" expanded="true" />
+            <element signature="e#1643#1644#0" expanded="true" />
+            <element signature="e#1687#1688#0" expanded="true" />
+            <element signature="e#1723#1724#0" expanded="true" />
+            <element signature="e#1760#1761#0" expanded="true" />
+            <element signature="e#1793#1794#0" expanded="true" />
+            <element signature="e#1845#1846#0" expanded="true" />
+            <element signature="e#1889#1890#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

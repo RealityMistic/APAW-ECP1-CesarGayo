@@ -30,13 +30,16 @@ public class ArtistaFactory extends AbstractFactory {
         return artistaFactory;
     }
 
-    public Profesional crear(int suId, String suNombre, String suPseudonimo) {
-        misArtistas.put(suId, new Artista(suId,
+    public Artista crear(int suId, String suNombre, String suPseudonimo) {
+        misArtistas.put(suId, new ArtistaBuilder(suId,
                                         suNombre,
                                         suPseudonimo,
                                         false,
-                                        new Agente(1, "Pepe Camarón", "1212") )
-                        );
+                                        AgenteFactory.
+                                                getInstanceAgenteFactory().
+                                                crear(1, "Pepe Camarón", "El Camarao"))
+                                        .buildArtista()
+        );
         return misArtistas.get(suId);
     }
     public boolean borrar(int suId){
