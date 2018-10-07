@@ -1,9 +1,7 @@
 public interface AbstractFactory {
-    ArtistaFactory artistaFactory;
-    AgenteFactory agenteFactory;
 
     public abstract Agente crearAgente();
-    public abstract Artista crearArtista(){
-
-    }
+    public abstract Artista crearArtista();
+    public abstract boolean borrarArtista(Artista artistaABorrar);
+    public abstract boolean borrarAgente(Agente agenteABorrar);
 }

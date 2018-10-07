@@ -34,4 +34,12 @@ public class ArtistaFactory implements AbstractFactory {
     public Artista crearArtista(int suId, String suNombre, String suPseudonimo, Boolean esAnonimo, Agente suAgente) {
         misArtistas.put(suId, new Artista(suId, suNombre, suPseudonimo, esAnonimo, suAgente) );
     }
+
+    public boolean borrarAgente(int suId){
+        if (misArtistas.containsKey(suId)){
+            misArtistas.remove(suId);
+            return true;
+        }
+        else return false;
+    }
 }
