@@ -1,17 +1,21 @@
 import java.time.LocalDateTime;
+import java.util.HashMap;
 
-public class Promocion {
+public abstract class PromocionComponent {
     int idPromocion;
     LocalDateTime momentoPromocion;
     String local;
     String ciudad;
 
-    public Promocion(int idPromocion, LocalDateTime momentoPromocion,  String local, String ciudad) {
+
+    public PromocionComponent(int idPromocion, LocalDateTime momentoPromocion, String local, String ciudad) {
         this.momentoPromocion = momentoPromocion;
         this.idPromocion = idPromocion;
         this.local = local;
         this.ciudad = ciudad;
     }
+    public abstract void view();
+    public abstract boolean isComposite();
 
     public String getLocal() {
         return local;
