@@ -4,7 +4,7 @@ import java.util.ArrayList;
 public class Artista extends Profesional {
     int idArtista;
     boolean anonimo;
-    Agente suAgente;
+    Profesional suAgente;
     AgenteFactory agenteFactory;
     ArrayList<Album> susAlbumes;
     ArtistaBuilder artistaBuilder;
@@ -24,7 +24,7 @@ public class Artista extends Profesional {
         return idArtista;
     }
 
-    public Agente getSuAgente(){
+    public Profesional getSuAgente(){
         return suAgente;
     }
 

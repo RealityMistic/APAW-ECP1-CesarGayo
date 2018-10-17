@@ -1,30 +1,21 @@
 import java.util.HashMap;
 
 public class AgenteFactory extends AbstractFactory {
-    private HashMap<Integer, Agente> misAgentes;
-    private static AgenteFactory agenteFactory;
-    private static boolean allowInstance;
+    private static HashMap<Integer, Profesional> misAgentes;
+
 
     public void AgenteFactory(){
         if(!allowInstance){
             System.out.print("Debes usar getInstance()");
         }else{
+            abstractFactory = new AgenteFactory();
             System.out.print("Se inicializó una instancia de AgenteFactory");
-        }
-    }
-    public static AgenteFactory getInstanceAgenteFactory() {
-
-        if ( agenteFactory == null) {
-            allowInstance = true;
-            agenteFactory = new AgenteFactory();
             allowInstance = false;
-        } else {
-            System.out.println("Se retorna la instancia existente");
         }
-        return agenteFactory;
     }
-    public Agente crear(int suId, String suNombre, String suPseudonimo) {
-        misAgentes.put(suId, new Agente(suId, suNombre, suPseudonimo) );
+
+    public Profesional crear(int suId, String suNombre, String suPseudonimo) {
+        misAgentes.put(suId, (Profesional) new Agente(suId, suNombre, suPseudonimo) );
         return misAgentes.get(suId);
     }
 

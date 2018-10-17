@@ -4,10 +4,10 @@ public class ArtistaBuilder extends Profesional{
 
     int idArtista;
     boolean anonimo;
-    Agente suAgente;
+    Profesional suAgente;
     ArrayList<Album> susAlbumes;
 
-    public ArtistaBuilder(int idArtista, String nombre, String pseudonimo, boolean anonimo, Agente suAgente) {
+    public ArtistaBuilder(int idArtista, String nombre, String pseudonimo, boolean anonimo, Profesional suAgente) {
         this.idArtista = idArtista;
         this.nombre=nombre;
         this.pseudonimo=pseudonimo;
@@ -25,7 +25,7 @@ public class ArtistaBuilder extends Profesional{
     }
 
 
-    public Agente getSuAgente() {
+    public Profesional getSuAgente() {
         return suAgente;
     }
 
@@ -37,15 +37,15 @@ public class ArtistaBuilder extends Profesional{
         this.susAlbumes = susAlbumes;
     }
 
-    public Artista buildArtista(){
-        return new Artista(this);
+    public Profesional buildArtista(){
+        return (Profesional) new Artista(this);
     }
     public void id(int idArtista){
             this.idArtista=idArtista;
     }
     public void agente(int idAgente, String nombre, String pseudonimo, String telefono){
             suAgente = AgenteFactory.
-                        getInstanceAgenteFactory().
+                        getInstanceFactory().
                         crear(idAgente, nombre, pseudonimo);
     }
     public void nombre(String nombre){

@@ -1,15 +1,15 @@
 import java.util.HashMap;
 
 public class ArtistaFactory extends AbstractFactory {
-    private HashMap<Integer, Artista> misArtistas;
-    private static ArtistaFactory artistaFactory;
-    private static boolean allowInstance;
+    private HashMap<Integer, Profesional> misArtistas;
 
     public void ArtistaFactory(){
         if(!allowInstance){
             System.out.print("Debes usar getInstance()");
         }else{
+            abstractFactory = new ArtistaFactory();
             System.out.print("Se inicializó una instancia de ArtistaFactory");
+            allowInstance = false;
         }
     }
 
@@ -19,24 +19,15 @@ public class ArtistaFactory extends AbstractFactory {
         else return false;
     }
 
-    public ArtistaFactory getInstanceArtistaFactory(int idArtista) {
-        if (buscarArtista(idArtista)){
-            allowInstance = true;
-            artistaFactory = new ArtistaFactory();
-            allowInstance = false;
-        } else {
-            System.out.println("Se retorna la instancia existente");
-        }
-        return artistaFactory;
-    }
 
-    public Artista crear(int suId, String suNombre, String suPseudonimo) {
+    public Profesional crear(int suId, String suNombre, String suPseudonimo) {
+
         misArtistas.put(suId, new ArtistaBuilder(suId,
                                         suNombre,
                                         suPseudonimo,
                                         false,
                                         AgenteFactory.
-                                                getInstanceAgenteFactory().
+                                                getInstanceFactory().
                                                 crear(1, "Pepe Camarón", "El Camarao"))
                                         .buildArtista()
         );
