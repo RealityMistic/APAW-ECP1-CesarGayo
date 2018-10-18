@@ -1,0 +1,11 @@
+Promocion.class
+Etiqueta.class
+AgenteFactory.class
+Artista.class
+ArtistaBuilder.class
+AbstractFactory.class
+ArtistaFactory.class
+GeneroMusical.class
+Agente.class
+Profesional.class
+Album.class
